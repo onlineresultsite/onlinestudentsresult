@@ -1,19 +1,43 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Result Website</title>
+    <title>Student Result Lookup</title>
+    <style>
+        body {
+            background-image: url('back.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add additional CSS styles for your content here */
+    </style>
 </head>
 <body>
-    <h1>Student Result Website</h1>
+  <img src="1.jpg" alt="college name" height="250" weidth="1000">
+ <h1>Ist Internal exam Oct 2023 Bsc(N) IInd Result</h1>
     <form id="search-form">
         Enter Roll Number: <input type="text" id="roll-number">
         <button type="button" id="search-button">Search</button>
     </form>
-    <div id="result-container">
-        <h2>Student Result:</h2>
-        <div id="result-content">
-            <!-- Result will be displayed here -->
-        </div>
+    <div id="result-container" style="display: none;">
+        <h2>Ist Internal exam Oct 2023 Bsc(N) IInd Result</h2>
+        <p><strong>Name:</strong> <span id="student-name"></span></p>
+        <table id="result-table">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody id="result-rows">
+                <!-- Student result rows will be added here -->
+            </tbody>
+        </table>
     </div>
     <script src="script.js"></script>
 </body>
