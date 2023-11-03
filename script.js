@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const studentData = {
         "101": {
-            "name": "John Doe",
+            "name": "KHUSHI KUMAWAT",
             "subjects": {
-                "Math": { "marks": 95, "remarks": "Excellent" },
-                "Science": { "marks": 88, "remarks": "Very Good" },
-                "History": { "marks": 75, "remarks": "Good" },
-                "English": { "marks": 90, "remarks": "Excellent" },
-                "Physics": { "marks": 85, "remarks": "Very Good" },
-                "Chemistry": { "marks": 92, "remarks": "Excellent" }
+                "MSN": { "marks": 52, "remarks": "PASS" },
+                "MSN": { "marks": 54, "remarks": "PASS" },
+                "CET": { "marks": 75, "remarks": "PASS" },
+                "SOCIOLOGY": { "marks": 61, "remarks": "PASS" },
+                "PHARMA,PATHO,GENETIC": { "marks": 49, "remarks": "PASS" },
+                "CHN": { "marks": 53, "remarks": "PASS" }
             }
         },
         // Add data for other students
